@@ -1,21 +1,7 @@
 package program5;
-// Author : Murtaza Meerza
+
 import stdlib.*;
 import algs13.Queue;
-/* ***********************************************************************
- *  Compilation:  javac LinearProbingHashST.java
- *  Execution:    java LinearProbingHashST
- *
- *  Symbol table implementation with linear probing hash table.
- *
- *  % java LinearProbingHashST
- *  128.112.136.11
- *  208.216.181.15
- *  null
- *
- *
- *************************************************************************/
-
 
 public class P5HashST<K, V> {
 	private static final int INIT_CAPACITY = 4;
@@ -171,7 +157,7 @@ public class P5HashST<K, V> {
 
 
 	/* *********************************************************************
-	 *  Unit test client.
+	 *   test client.
 	 ***********************************************************************/
 	public static void main(String[] args) {
 		StdIn.fromFile("data/tiny.txt");
