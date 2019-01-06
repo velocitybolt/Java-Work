@@ -1,10 +1,5 @@
 package song;
 
-/*
- * Written by John Rogers
- * This program tests the implementation of the Song
- * class written for an assignment in week 5 of CSC 300.
- */
 
 import stdlib.StdIn;
 
